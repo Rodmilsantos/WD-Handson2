@@ -1,0 +1,275 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Watch Card specific styles */
+.watch-card .card-content h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.watch-card .btn {
+    background-color: #007bff;
+}
+
+.watch-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Profile Card specific styles */
+.profile-card .profile-cover {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile-card .profile-cover img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-card .card-image.profile img {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #16ac2a;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card .skills .skill-level {
+    height: 8px;
+    background-color: #000000;
+    width: 0;
+    transition: width 0.5s ease, background-color 0.3s ease;
+}
+
+.profile-card .buttons .btn:hover {
+    background-color: #ddf50a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card .card-content h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Game Card specific styles */
+.game-card .card-content {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #111;
+    color: #000000;
+}
+
+.game-card .card-content h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(182, 230, 9, 0.5);
+}
+
+.game-card .description {
+    color: #f8eeee;
+}
+
+.game-card .btn {
+    background-color: #b6a614;
+}
+
+.game-card .btn:hover {
+    background-color: #6dd10f;
+    transform: translateY(-2px);
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Yu-Gi-Oh Card specific styles */
+.yugioh-card {
+    width: 350px;
+    border: 2px solid #c9b280;
+    background-color: #f1e5b6;
+}
+
+.yugioh-card .card-image {
+    border-bottom: 2px solid #7e7a77;
+}
+
+.yugioh-card .card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.yugioh-card .card-content h2 {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.yugioh-card .card-content p {
+    font-size: 0.9rem;
+    color: #000;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.yugioh-card .stats {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.yugioh-card .stats .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yugioh-card .stats .stat span {
+    margin: 5px 0;
+}
+
+.yugioh-card .btn {
+    background-color: #c9b280;
+    color: #000;
+}
+
+.yugioh-card .btn:hover {
+    background-color: #a18a6d;
+    transform: translateY(-2px);
+}
+
+/* F1 Card specific styles */
+.f1-card {
+    border: 5px solid #d40000;
+    background: linear-gradient(135deg, #ffffff, #e0e0e0);
+}
+
+.f1-card .card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 5px solid #d40000;
+}
+
+.f1-card .card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.f1-card .card-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #d40000;
+    font-weight: bold;
+}
+
+.f1-card .description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.f1-card .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.f1-card .info-item {
+    width: 48%;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.f1-card .info-item span {
+    display: block;
+    font-weight: bold;
+    color: #d40000;
+}
+
+.f1-card .info-item span:last-child {
+    font-weight: normal;
+    color: #333;
+}

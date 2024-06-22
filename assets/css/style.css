@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fffafa;
+    color: #000000;
+}
+
+header {
+    background: linear-gradient(90deg, #ff5f6d, #ffc371);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header h1, header h2 {
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+main button {
+    background: #ff5f6d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: 'Raleway', sans-serif;
+}
+
+main button:hover {
+    background: #ffc371;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer-icon {
+    width: 30px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}

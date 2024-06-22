@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Hands on 2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+ a pure HTML and CSS Hero and Card Display website with unique designs. Both animated and static versions of the cards, as well as static representations of the heroes.
 </div>
 
 <br />
@@ -60,10 +60,10 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- featuring a Hero style, different static card styles and different animated card styles
+- to practice and showcase hero styles and card styles
+- Different designs of hero styles and card styles
+- HTML for structure and css for styling 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +117,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| MAKING A HERO SECTION WITH HTML | to help making a hero section and understand it | https://www.youtube.com/watch?v=XDGig-nJUg8 |
+| Creating Responsive CSS Cards  Card Design HTM & CSS | the process of designing and coding responsive CSS cards  | https://www.youtube.com/watch?v=9FNNkzPBFcE&t=2s |
+| Animated Card Hover Effect  Html & CSS  CodeEra | to help styling my html structure | https://www.youtube.com/watch?v=t5zFfDdvApE |
